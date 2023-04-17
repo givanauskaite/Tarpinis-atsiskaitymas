@@ -1,0 +1,30 @@
+header {
+    @include flex-between;
+    background: $lghtblue;
+  }
+
+  .form button {
+    background: $blue;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    padding: 10px 10px;
+    margin: 10px;
+    width: 120px;
+    cursor: pointer;
+    transition: 0.2s;
+  
+    &:hover {
+      background: skyblue;
+    }
+  }
+
+  @media (max-width: 500px){
+    header {
+      height: auto;
+      flex-direction: row;
+      text-align: center;
+      padding: 0px 10px 0px 15px;
+      background: white;
+    }
+}

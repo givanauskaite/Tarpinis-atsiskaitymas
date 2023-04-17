@@ -1,0 +1,35 @@
+nav {
+    background: $lghtblue;
+    display: flex;
+    justify-content: space-between;
+
+
+.links {
+    display: flex;
+    gap: 10px;
+    margin-left: 150px;
+}
+
+a {
+    text-decoration: none;
+    color: $blue;
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+
+.ikonos {
+    display: flex;
+    gap: 25px;
+    margin-right: 150px;
+    margin-top: 50px;
+
+}
+
+i {
+    color: $blue;
+}
+}
+
+.header {
+    
+}

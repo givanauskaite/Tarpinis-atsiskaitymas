@@ -1,0 +1,30 @@
+#easy {
+    .container {
+        // width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        img {
+            width: 700px;
+            height: 400px;
+        }
+
+        h2 {
+            text-align: left;
+            margin-left: 80px;
+            margin-bottom: 10px;
+            font-size: 1.9em;
+        }
+
+        p {
+            width: 600px;
+            text-align: left;
+            margin-left: 80px;
+            padding-right: 90px;
+            color: gray;
+            font-size: 1.1em;
+            font-weight: lighter;
+        }
+    }
+}

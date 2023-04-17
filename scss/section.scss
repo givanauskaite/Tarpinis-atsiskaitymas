@@ -1,0 +1,27 @@
+section {
+    background: $lghtblue;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    gap: 30px;
+    padding-left: 220px;
+    padding-right: 220px;
+
+
+    i {
+        color: $blue;
+        margin-top: 150px;
+        margin-bottom: 40px;
+    }
+
+    h2 {
+        margin-bottom: 10px;
+    }
+
+    p {
+        color: gray;
+        font-size: 1.1em;
+        margin-bottom: 130px;
+    }
+
+}

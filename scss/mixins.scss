@@ -1,0 +1,9 @@
+@mixin flex-between {
+    display: flex;
+  justify-content: space-between;
+  padding-left: 100px;
+  padding-right: 100px;
+  width: 100%;
+  align-items: center;
+  min-height: 40px;
+}
